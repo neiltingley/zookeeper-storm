@@ -1,0 +1,13 @@
+---
+kafka_version: 0.9.0.1
+apache_mirror: nexus.sandbox.extranet.group/nexus/content/repositories/binaries/
+kafka_port: 9093
+zookeeper_client_port: 2183
+
+# cluster_interface: 'eth0'
+data_disks_devices: []
+#data_disks_devices: ['xvde']
+data_disks_filesystem: xfs
+
+# set to true to show host variables
+debug: false
