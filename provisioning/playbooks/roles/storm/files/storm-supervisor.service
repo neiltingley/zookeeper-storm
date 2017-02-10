@@ -5,7 +5,7 @@ After=storm-nimbus.service zookeeper.service
 [Service]
 Type=simple
 User=storm
-Group=storm
+#Group=storm
 Restart=on-failure
 WorkingDirectory=/opt/storm/current
 ExecStart=/opt/storm/current/bin/storm supervisor

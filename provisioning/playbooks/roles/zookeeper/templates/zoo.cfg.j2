@@ -27,6 +27,6 @@ dataDir={{ zookeeper_data_dir }}
 # the port at which the clients will connect
 clientPort={{ zookeeper_client_port }}
 
-{% for server in play_hosts %}
-server.{{ hostvars[server]['id'] }}={{ hostvars[server]['ansible_nodename'] }}:2888:3888
+{% for server in groups['storm-nodes'] %}
+server.{{ hostvars[server]['id'] }}={{ hostvars[server]['inventory_hostname'] }}:2888:3888
 {% endfor %}

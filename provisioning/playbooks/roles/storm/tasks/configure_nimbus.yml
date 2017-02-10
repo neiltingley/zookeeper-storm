@@ -10,7 +10,6 @@
   notify:
     - Restart Nimbus
   when: not use_systemd
-
 - name: Setup Storm nimbus systemd script
   copy: dest={{nimbus_systemd_service}} owner=root group=root mode=644 src=storm-nimbus.service
   notify:

@@ -5,8 +5,11 @@
 - name: Add user "zookeeper"
   user: name={{ zookeeper_group }} group={{ zookeeper_group }} home={{ zookeeper_data_dir }} shell=/sbin/nologin system=yes
 
+- name: Create apps dir
+  file: path=/apps owner=root group=root state=directory
+
 - name: Download the tarball
-  get_url: url=http://{{ apache_mirror }}/zookeeper/zookeeper-{{ zookeeper_version }}.tar.gz dest=/apps/zookeeper-{{ zookeeper_version }}.tar.gz
+  get_url: url=http://{{ apache_mirror }}/zookeeper/zookeeper-{{ zookeeper_version }}/zookeeper-{{ zookeeper_version }}.tar.gz dest=/apps/zookeeper-{{ zookeeper_version }}.tar.gz
 
 - name: Extract the tarball
   unarchive: src=/apps/zookeeper-{{ zookeeper_version }}.tar.gz dest=/apps/ copy=no creates=/apps/zookeeper-{{ zookeeper_version }}

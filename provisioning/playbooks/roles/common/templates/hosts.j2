@@ -1,5 +1,11 @@
-127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1 localhost localhost.localdomain localhost6 localhost6.localdomain6
-{% for node in groups['kafka-nodes'] %}
-{{ hostvars[node]['ansible_'~hostvars[node].cluster_interface|default(hostvars[node].ansible_default_ipv4.alias)]['ipv4']['address'] }} {{ hostvars[node]['ansible_nodename'] }} {{ hostvars[node]['ansible_hostname'] }}
+# Do not remove the following line, or various programs
+# that require network functionality will fail.
+# managed by ansible
+
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+{% for item in play_hosts %}
+{% set short_name = item.split('.') %}
+{{ hostvars[item]['ansible_host'] }}  {{ item }} {{ short_name[0] }}
 {% endfor %}

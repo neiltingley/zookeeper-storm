@@ -7,10 +7,10 @@ storm_java_library_path: "/usr/local/lib:/opt/local/lib:/usr/lib"
 storm_nimbus_enabled: false
 storm_zookeeper_port: 2181
 storm_nimbus_extra_config:
-    nimbus.childopts: "-Xmx1024m"
+    nimbus.childopts: "-Xmx1024m -Djava.net.preferIPv4Stack=true"
 storm_supervisor_enabled: false
 storm_supervisor_extra_config:
-    supervisor.childopts: "-Xmx1024m"
+    supervisor.childopts: "-Xmx1024m -Djava.net.preferIPv4Stack=true"
 storm_topology_extra_config:
     topology.acker.executors: 1
     topology.debug: false
@@ -22,10 +22,10 @@ storm_ui_enabled: false
 storm_ui_port: 8088
 storm_ui_host: 127.0.0.1
 storm_ui_extra_config:
-    ui.childopts: "-Xmx768m"
+    ui.childopts: "-Xmx768m -Djava.net.preferIPv4Stack=true"
 storm_version: 0.9.6
 storm_worker_extra_config:
-    worker.childopts: "-Xmx1280m -XX:+UseConcMarkSweepGC -Dcom.sun.management.jmxremote"
+    worker.childopts: "-Xmx1280m -XX:+UseConcMarkSweepGC -Dcom.sun.management.jmxremote -Djava.net.preferIPv4Stack=true"
 storm_worker_ports: [6701, 6702, 6703, 6704]
 storm_zookeeper_extra_config:
     storm.zookeeper.port:  "{{ storm_zookeeper_port }}"
