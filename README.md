@@ -69,4 +69,4 @@ The nodes will boot up and be 'provisioned' with provisioning/storm.yml
 TODO: dynamic host inventory is not working yet
 
 
-When ansible is finished you should be able to browse to http://localhost:18080 to see the storm UI and everything running nicely
+When ansible is finished you should be able to browse to http://192.168.33.23:8088/ to see the storm UI and everything running nicely
