@@ -2,70 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e9804a-accf-4287-9d25-83e3b13b80da" name="Default" comment="Fix ansible provisioning order">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs/virtualbox/action_provision" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs/virtualbox/action_set_name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs/virtualbox/creator_uid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs/virtualbox/id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs/virtualbox/index_uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs/virtualbox/synced_folders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs1/virtualbox/action_provision" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs1/virtualbox/action_set_name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs1/virtualbox/creator_uid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs1/virtualbox/id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs1/virtualbox/index_uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs1/virtualbox/synced_folders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs2/virtualbox/creator_uid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs2/virtualbox/id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/gogs2/virtualbox/index_uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/kafka_static.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/kafka.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/defaults/main.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/files/kafka.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/files/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/files/tools-log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/handlers/main.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/tasks/main.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/templates/kafka-server.j2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/kafka/templates/server.properties.j2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/creator_uid" afterPath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/creator_uid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/vm1/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/creator_uid" afterPath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/creator_uid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/vm2/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/creator_uid" afterPath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/creator_uid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/vm3/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/ansible.cfg" afterPath="$PROJECT_DIR$/provisioning/ansible.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/inventory/static" afterPath="$PROJECT_DIR$/provisioning/inventory/static" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/group_vars/all" afterPath="$PROJECT_DIR$/provisioning/playbooks/group_vars/all" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/kafka.retry" afterPath="$PROJECT_DIR$/provisioning/playbooks/kafka.retry" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/common/tasks/firewall.yml" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/common/tasks/firewall.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/common/tasks/main.yml" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/common/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/common/templates/hosts.j2" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/common/templates/hosts.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/defaults/main.yml" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-nimbus.conf" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-nimbus.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-nimbus.service" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-nimbus.service" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-supervisor.conf" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-supervisor.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-supervisor.service" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-supervisor.service" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-ui.conf" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/files/storm-ui.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/tasks/configure_nimbus.yml" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/tasks/configure_nimbus.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/tasks/install.yml" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/storm/tasks/install.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/tasks/main.yml" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/templates/zoo.cfg.j2" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/templates/zoo.cfg.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/templates/zookeeper-server.j2" afterPath="$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/templates/zookeeper-server.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storm_static.sh" afterPath="$PROJECT_DIR$/storm_static.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,21 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="localhost" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provisioning/inventory/localhost">
+      <file leaf-file-name="ansible.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provisioning/ansible.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="static" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provisioning/inventory/static">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="60">
+              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -104,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/nimbus-host">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -113,9 +45,22 @@
       <file leaf-file-name="storm-nodes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/storm-nodes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -123,48 +68,48 @@
       <file leaf-file-name="all" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/all">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/storm/defaults/main.yml">
+      <file leaf-file-name="storm_static.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storm_static.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/storm/vars/main.yml">
+      <file leaf-file-name="storm.retry" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provisioning/playbooks/storm.retry">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/defaults/main.yml">
+      <file leaf-file-name="kafka.retry" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provisioning/playbooks/kafka.retry">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,7 +118,7 @@
       <file leaf-file-name="storm.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provisioning/playbooks/storm.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="300">
               <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
             </state>
@@ -198,6 +143,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -236,8 +186,9 @@
         <option value="$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/tasks/main.yml" />
         <option value="$PROJECT_DIR$/provisioning/README.md" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/provisioning/playbooks/group_vars/all" />
+        <option value="$PROJECT_DIR$/storm_static.sh" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -267,7 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,10 +231,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provisioning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provisioning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provisioning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provisioning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devops-ansible-kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provisioning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group_vars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1005,6 +1058,7 @@
       <workItem from="1486579530520" duration="7931000" />
       <workItem from="1486654352366" duration="7224000" />
       <workItem from="1486718332469" duration="2571000" />
+      <workItem from="1486982598824" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="this works ...">
       <created>1486563445636</created>
@@ -1045,7 +1099,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50212000" />
+    <option name="totallyTimeSpent" value="50517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="6" />
@@ -1059,8 +1113,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.327654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1071,8 +1125,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1102,13 +1156,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/storm/meta/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/common/vars/redhat-6.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1294,44 +1341,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/kafka.retry">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/storm.retry">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="975">
-            <caret line="65" column="74" lean-forward="false" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/ansible.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioning/README.md" />
     <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,23 +1353,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="90" lean-forward="false" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/storm_static.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioning/storm_static.sh" />
     <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/common/templates/hosts.j2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,22 +1372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="208" lean-forward="true" selection-start-line="2" selection-start-column="208" selection-end-line="2" selection-end-column="208" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/common/files/tuned.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,7 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,7 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,14 +1397,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/storm/defaults/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1429,15 +1419,7 @@
     <entry file="file://$PROJECT_DIR$/provisioning/playbooks/roles/zookeeper/defaults/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/storm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1458,35 +1440,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/nimbus-host">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/storm-nodes">
+    <entry file="file://$PROJECT_DIR$/storm_static.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/storm.retry">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/kafka.retry">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/all">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/storm.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioning/ansible.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/storm-nodes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioning/playbooks/group_vars/nimbus-host">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

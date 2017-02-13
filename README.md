@@ -1,4 +1,4 @@
-ansible-kafka
+ansible-storm
 ---------
 This Ansible playbook will build a Storm cluster with Zookeeper based on https://github.com/hpcloud-mon/ansible-storm with a few modifications to work on ancient centos 6.8. Upstart configs had to be changed. 
 
@@ -20,6 +20,8 @@ You can pre-build a Rackspace cloud environment or run the playbook against an e
 - The `id` is automatically set (on the inventory items in alphabetical order).
 
 - It includes init scripts for both Zookeeper and upstart config for Storm components
+
+- installs storm ui and storm nimbus on primary node (configurable in playbooks/group_vars/*)
 
 
 ## [Inventory] (id:inventory)
@@ -45,28 +47,6 @@ For a one-node cluster, set `nodes_count` in `playbooks/group_vars/all` to 1.
 
 - For static / prebuilt environments:
   ````
-  bash stormn_static.sh
+  bash storm_static.sh
   
   ````
-## Vagrant
-
-Tested on Mac OS. Windows setup for vagrant is not possible except from another linux VM or docker container. 
-
-Install vagrant from https://www.vagrantup.com/
-
-Install VirtualBox from https://www.virtualbox.org/wiki/Downloads
-
-Install Ansible with pip (see http://docs.ansible.com/ansible/intro_installation.html#latest-releases-via-pip)
-
-To bring up three centos nodes with vagrant type
-
-
-```
-Vagrant up
-```
-The nodes will boot up and be 'provisioned' with provisioning/storm.yml
-
-TODO: dynamic host inventory is not working yet
-
-
-When ansible is finished you should be able to browse to http://localhost:18080 to see the storm UI and everything running nicely
